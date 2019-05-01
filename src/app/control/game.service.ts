@@ -16,7 +16,7 @@ export class GameService {
   win() {
     this.removeStylingClass();
     console.log('Win');
-    this.messageOut = 'You WON!';
+    this.messageOut = 'You WIN!';
     this.gameResult.addUserPoint();
     document.getElementById(this.userChoice).classList.add('green-glow');
   }
